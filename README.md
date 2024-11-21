@@ -3,6 +3,7 @@
 **Overview**
 
 This project fetches live data for the top 50 cryptocurrencies by market capitalization using the CoinGecko API. The data is analyzed and displayed in a live-updating Excel sheet, providing real-time insights into cryptocurrency trends.
+
 ---
 
 **Features**
