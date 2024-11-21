@@ -40,10 +40,14 @@ This project fetches live data for the top 50 cryptocurrencies by market capital
 
 ```python crypto_analysis.py```
 
+---
+
 **File Structure**
 
 __**crypto_analysis.py:**_ Main script to fetch, analyze, and update live cryptocurrency data.
 _**CryptoLive.xlsx:**_ The Excel file where live data is updated (generated automatically if not present).
+
+---
 
 **Prerequisites**
 
@@ -55,6 +59,8 @@ Python libraries:
    requests
    pandas
    xlwings
+
+---
 
 **How It Works**
 
@@ -68,6 +74,18 @@ Processes the API data to identify key metrics.
 **Excel Integration:**
 
 Updates the Excel sheet every 5 minutes with live data using xlwings.
+
+---
+**Output**
+![Screenshot 2024-11-21 125436](https://github.com/user-attachments/assets/ad5e1532-c523-41c4-b0c1-792233e5ccda)
+
+![Screenshot 2024-11-21 125451](https://github.com/user-attachments/assets/c4365520-e7ce-4569-8783-839c9022907b)
+
+![Screenshot 2024-11-21 125457](https://github.com/user-attachments/assets/990a0cf4-9e91-491f-8731-446ceece0d3f)
+
+![Screenshot 2024-11-21 125527](https://github.com/user-attachments/assets/5b5a30ac-b946-475e-bd28-2bf7d1082160)
+
+---
 
 **License**
 This project is licensed under the MIT License. See the LICENSE file for details.
